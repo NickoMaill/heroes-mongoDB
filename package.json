@@ -1,0 +1,34 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "heroes exo konexio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickoMaill/heroes-mongoDB.git"
+  },
+  "keywords": [
+    "heroes",
+    "server",
+    "http",
+    "iron",
+    "man",
+    "aquaman",
+    "superman"
+  ],
+  "author": "Nicolas Maillols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickoMaill/heroes-mongoDB/issues"
+  },
+  "homepage": "https://github.com/NickoMaill/heroes-mongoDB#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  }
+}
